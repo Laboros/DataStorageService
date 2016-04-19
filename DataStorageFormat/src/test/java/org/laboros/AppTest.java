@@ -1,4 +1,4 @@
-package org.laboros.DataStorageFormat;
+package org.laboros;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
