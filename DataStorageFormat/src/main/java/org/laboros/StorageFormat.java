@@ -1,9 +1,9 @@
 package org.laboros;
 
-import org.apache.hadoop.io.WritableComparator;
+import org.apache.hadoop.io.WritableComparable;
 
 public interface StorageFormat {
 	
-	public WritableComparator parseData(final String inputData);
+	public WritableComparable parseData(final String inputData);
 
 }
